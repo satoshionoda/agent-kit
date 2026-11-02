@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ubiquitous Language"
+  short_description: "会話からDDD用語集を作成し曖昧な用語を整理する"
+  default_prompt: "Use $ubiquitous-language to extract and maintain a DDD-style glossary from this discussion."

@@ -1,0 +1,16 @@
+# OS・エディタの一時ファイル
+.DS_Store
+.AppleDouble
+._*
+Thumbs.db
+*.swp
+*.tmp
+*~
+
+# 個人の作業データ
+.trash/
+Logs/
+
+# Obsidianは共有する編集設定のみを管理する
+.obsidian/*
+!.obsidian/app.json

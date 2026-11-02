@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grill Me"
+  short_description: "企画や設計の論点を一問ずつ深掘りする対話 Skill"
+  default_prompt: "Use $grill-me to pressure-test this plan until we reach shared understanding."
