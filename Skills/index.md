@@ -8,6 +8,9 @@ Codex から使う実体は `~/.codex/skills` 側に見せつつ、このフォ�
 
 # 配下ノート
 
+- [goal-check/SKILL](goal-check/SKILL.md)
+    - 現在の依頼のゴール・必須目標・努力目標・制約条件と、認識や作業のずれを確認するスキル
+    - 作業開始前や途中で、条件の確認を求められたときに読む
 - [linear-project-workflow/SKILL](linear-project-workflow/SKILL.md)
     - 計画の人間レビューから実装・検証・進捗記録までを一貫して進めるスキル
 - [grill-me/SKILL](grill-me/SKILL.md)
