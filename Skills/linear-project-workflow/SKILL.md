@@ -11,20 +11,22 @@ description: Linear Projectの計画、DescriptionとIssue設計の人間レビ�
 
 このスキルの専用手順は配下の参照資料で完結する。共通の行動方針は [OperatingPrinciples](../../OperatingPrinciples.md)、記録する文章は [Writing Tune](../writing-tune/SKILL.md) に従う。
 
-## Initiative・Project・Issue
+## Initiative・Project・Milestone・Issue
 
 - Initiativeは、継続的な案件や活動をまとめる単位。
 - Projectは、完了できる成果の単位とし、Initiativeに所属させる。目的・成功条件・対象範囲を定める。
+- Milestoneは、Projectのゴールに向かう途中で、何ができるようになったかを確認する節目。途中の検証結果を踏まえて次の作業を決めたいときに使う。
 - Issueは、Project内で着手・完了を判断できる作業の単位。小さなProjectではIssueを設けずに進めてもよい。
 
 開始時に対象Projectの所属先と範囲を確認する。既存の所属・粒度が適切ならそのまま進める。継続的な活動をProjectにしている場合や、独立した成果を詰め込んでいる場合は分け方を提案する。対象が不明なら確認し、新たなProjectやInitiativeの作成は依頼の範囲で行う。
 
 ## 全体フロー
 
-1. [計画](references/planning.md) に沿って調査し、Description案をチャットでレビュー・修正する。承認後にLinearへ反映し、そのままIssue設計へ進む。
-2. Issue案もチャットでレビュー・修正し、承認後にLinearへ反映する。草案の修正ごとにLinearへ書き込まない。
+1. [計画](references/planning.md) に沿って調査し、Description案をチャットでレビュー・修正する。承認後にLinearへ反映し、Issue設計へ進む。IssueもMilestoneも設けない場合は手順3へ進む。
+2. Issue案をチャットでレビューし、承認後にLinearへ反映する。Milestoneを使う場合は、直近の到達点と関連Issue案を一緒にレビューする。
 3. 人間から明示的な実装開始指示を受け、[実装](references/implementation.md) に沿って進める。計画の承認だけでは実装を始めない。
-4. 成功条件と検証結果を確認し、Issue・Projectの状態とProject Updateを整えて完了を報告する。
+4. 節目では到達点を検証し、結果をProject Updateに残す。次のMilestoneを決める段階で、その結果をもとに手順2へ戻る。
+5. Project Descriptionの成功条件を満たしたら、Issue・Projectの状態とProject Updateを整えて完了を報告する。
 
 「今回はあなたがそのまま実装まで担当して」のような指示は、担当の指定と実装開始の指示として扱う。計画レビュー前に受けた場合は必要なレビューを済ませてから着手し、指示の有効な範囲で開始許可を取り直さない。
 
@@ -33,6 +35,6 @@ description: Linear Projectの計画、DescriptionとIssue設計の人間レビ�
 - 実装開始時に示された担当方法と人間レビューの方針を継続して適用する。個別の指定を優先し、判断を左右する不足だけ確認する。
 - 小さな作業は自身で実装する。分離する利点がある場合にWorkerを使い、全体の整合、検証結果の確認、Linearへの反映はオーケストレーターが担う。
 - 報告しながら継続できる作業を進める。人間の判断待ちは、回答に依存する作業に限る。
-- 実装中のIssue追加・計画調整と、Issue・Projectの状態更新は [実装](references/implementation.md) の境界に従う。合意した範囲の更新に毎回承認を求めない。
+- 実装中のIssue追加・計画調整と、Issue・Projectの状態更新は [実装](references/implementation.md) の条件に従う。合意した範囲の更新に毎回承認を求めない。
 
 Description、Issue、Project Updateなどを書く際は [書式](references/templates.md) を参照する。
