@@ -4,7 +4,7 @@ satoshionodaが個人で使用している、AIとの会話・作業の方針、
 
 ## 読み方
 
-文書とスキルの入口は [index](index.md)。AIには [AGENTS](AGENTS.md) を読み込ませ、そこから共通方針と必要なスキルを参照させる。Codex以外のAIでも、必要なMarkdownを直接読ませて使える。
+文書とスキルの入口は [index](index.md)。利用するエージェントに [AGENTS](AGENTS.md) を読み込ませ、そこから共通方針と必要なスキルを参照させる。必要なMarkdownを直接読ませることもできる。
 
 ## 出典とライセンス
 
